@@ -6,6 +6,11 @@ html{
     font-size: 36px;
 }
 
+body{
+    max-width: 1440px;
+    margin: auto;
+}
+
 h1, h2, h3, h4, h5, h6{
     font-family: 'Kreon', serif;
     font-weight: 700;
@@ -22,6 +27,7 @@ h1{
 
 h2{
    font-size: 2rem; 
+   margin: 0;
 }
 
 header{
@@ -63,3 +69,34 @@ footer{
     transform: translate(-50%, -50%);
 }
 
+.hero-text p{
+    margin: 0;
+}
+
+.main-info{
+    text-align: center;
+}
+
+.highlights{
+    display: flow-root;
+}
+
+.highlights .right{
+    width: 50%;
+    float: right;
+}
+
+.highlights .left{
+    width: 50%;
+    float: left;
+}
+
+.highlights-text{
+    display: inline-block;
+    width: 50%;
+}
+
+.highlights-text h2, .highlights-text p{
+    padding-left: 0.67rem;
+    padding-right: 0.67rem;
+}
